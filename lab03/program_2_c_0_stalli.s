@@ -60,17 +60,17 @@ for:
     mul.d F14, F14, F12
     mul.d F24, F24, F22
 
-    mul.d F6, F6, F2
-    mul.d F16, F16, F12
-    mul.d F26, F26, F22
+    mul.d F9, F6, F2
+    mul.d F19, F16, F12
+    mul.d F29, F26, F22
 
     sub.d F5, F7, F8
     sub.d F15, F17, F18
     sub.d F25, F27, F28
 
-    add.d F7, F6, F4
-    add.d F17, F16, F14
-    add.d F27, F26, F24
+    add.d F7, F9, F4
+    add.d F17, F19, F14
+    add.d F27, F29, F24
 
     s.d F5, v5(R1)
     s.d F15,v5(R2)
